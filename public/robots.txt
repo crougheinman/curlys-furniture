@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://curlysfurniturediscounters.com/sitemap.xml
