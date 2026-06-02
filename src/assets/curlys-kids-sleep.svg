@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-label="Kids sleep photo placeholder">
+  <rect width="1200" height="820" rx="20" fill="#e9e5dc"/>
+  <rect x="40" y="40" width="1120" height="740" rx="16" fill="none" stroke="#0f172a" stroke-opacity="0.25" stroke-width="3" stroke-dasharray="14 12"/>
+  <circle cx="600" cy="330" r="90" fill="#0f172a" opacity="0.12"/>
+  <path d="M450 470c0-83 67-150 150-150s150 67 150 150" fill="#0f172a" opacity="0.12"/>
+  <text x="600" y="600" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#475569" text-anchor="middle">Family / kids mattress photo</text>
+  <text x="600" y="648" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#94a3b8" text-anchor="middle">replace at src/assets/curlys-kids-sleep.svg</text>
+</svg>

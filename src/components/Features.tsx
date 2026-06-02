@@ -1,5 +1,5 @@
 import { Icon } from '@iconify/react';
-import { FEATURES, SITE_NAME } from '../constants';
+import { FEATURES } from '../constants';
 import { Link } from 'react-router-dom';
 
 const Features = () => {
@@ -9,11 +9,10 @@ const Features = () => {
                 <div className='mx-auto max-w-2xl lg:mx-0'>
                     <span className='text-base font-semibold leading-7 text-copa-gold-600'>Why choose us</span>
                     <h2 className='mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl'>
-                        Reasons we are the best
+                        Exceptional Quality. Unforgettable Comfort.
                     </h2>
                     <p className='mt-6 text-lg leading-8 text-gray-600'>
-                        These are what separates us from the rest. Read below to see what our
-                        customers love most about {SITE_NAME}.
+                        At Curly’s Furniture Discounters and Mattress, excellence isn’t just a promise — it’s our standard. Discover why discerning customers choose us for timeless style, superior craftsmanship, and unmatched value.
                     </p>
                 </div>
                 <div className='mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none'>

@@ -13,7 +13,7 @@ import type {
 export const DESCRIPTION: string =
   "High-Quality Furniture & Mattresses at Discount Prices in Tempe, AZ";
 
-export const SITE_NAME: string = "Curly's Furniture Discounters";
+export const SITE_NAME: string = "Curly's Furniture Discounters and Mattress";
 
 export const HEADER_NAV_LINKS: HeaderNavLinksType[] = [
   {

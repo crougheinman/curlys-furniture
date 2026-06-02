@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Icon } from '@iconify/react';
 import Layout from '../Layout';
-import financingHeader from '../assets/curlys-financing-header.svg';
+import financingHeader from '../assets/curlys-financing-header.jpg';
 
 const benefits = [
     { icon: 'mdi:percent-outline', label: '0% Interest', detail: 'On qualifying plans' },
@@ -99,7 +99,7 @@ const FinancingPage: React.FC = () => {
                                     href={option.href}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="mt-6 inline-flex items-center justify-center gap-2 rounded-full bg-copa-blue-600 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-copa-blue-700"
+                                    className="mt-6 inline-flex items-center justify-center gap-2 rounded-full bg-copa-red-600 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-copa-red-700"
                                 >
                                     {option.cta}
                                     <Icon icon="mdi:open-in-new" className="h-4 w-4" />
@@ -138,7 +138,7 @@ const FinancingPage: React.FC = () => {
                         </Link>
                         <Link
                             to="/contact"
-                            className="inline-flex w-full items-center justify-center gap-2 rounded-md bg-copa-blue-700 px-7 py-3 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-copa-blue-800 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-copa-blue-800 sm:w-auto"
+                            className="inline-flex w-full items-center justify-center gap-2 rounded-md bg-copa-red-600 px-7 py-3 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-copa-red-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-copa-red-700 sm:w-auto"
                         >
                             <Icon icon="mdi:phone-outline" className="h-4 w-4" />
                             Contact Us

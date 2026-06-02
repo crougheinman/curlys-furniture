@@ -16,7 +16,7 @@ const Brands = () => {
                         <div className='mt-8 flex items-center gap-x-6'>
                             <a
                                 href='/shop'
-                                className='rounded-md bg-copa-blue-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-copa-blue-800 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-copa-blue-700'
+                                className='rounded-md bg-copa-red-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-copa-red-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-copa-red-600'
                             >
                                 Shop All Brands
                             </a>

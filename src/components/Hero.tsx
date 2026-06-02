@@ -1,17 +1,17 @@
 import { Link } from 'react-router-dom';
 import { SITE_NAME } from '../constants';
-import heroImage from '../assets/curlys-hero.svg';
+import heroImage from '../assets/curlys-hero.webp';
 
 const Hero = () => {
     return (
-        <div className='bg-gray-900'>
+        <div className='bg-copa-blue-950'>
             <div className='relative isolate overflow-hidden pt-14'>
                 <img
                     src={heroImage}
                     alt=''
                     className='absolute inset-0 -z-10 h-full w-full object-cover'
                 />
-                <div className='absolute inset-0 -z-10 bg-linear-to-t from-gray-950/90 via-gray-900/50 to-gray-900/30'></div>
+                <div className='absolute inset-0 -z-10 bg-linear-to-t from-copa-blue-950/90 via-copa-blue-900/50 to-copa-blue-900/30'></div>
 
                 <div
                     className='absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80'
@@ -44,7 +44,7 @@ const Hero = () => {
                         <div className='mt-10 flex items-center justify-center gap-x-6'>
                             <Link
                                 to='/shop'
-                                className='rounded-md bg-copa-blue-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-copa-blue-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-copa-blue-600'
+                                className='rounded-md bg-copa-red-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-copa-red-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-copa-red-600'
                             >
                                 Shop Mattresses
                             </Link>

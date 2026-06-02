@@ -1,13 +1,13 @@
 import { Link } from 'react-router-dom';
 import { SITE_NAME, HEADER_NAV_LINKS, HEADER_CTA_BUTTON, STORE_INFO } from '../constants';
-import logo from '../assets/curlys-logo.svg';
+import logo from '../assets/curlys-logo.png';
 import { useState } from 'react';
 
 const HeaderNav = () => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
     return (
-        <header className='bg-white'>
+        <header className='bg-copa-blue-900'>
             <nav
                 className='mx-auto flex max-w-7xl items-center justify-between gap-x-6 p-6 lg:px-8'
                 aria-label='Global'
@@ -27,7 +27,7 @@ const HeaderNav = () => {
                         <Link
                             key={link.name}
                             to={link.url}
-                            className='text-sm font-semibold leading-6 text-gray-900'
+                            className='text-sm font-semibold leading-6 text-gray-100 hover:text-white'
                         >
                             {link.name}
                         </Link>
@@ -36,16 +36,16 @@ const HeaderNav = () => {
                 <div className='flex flex-1 items-center justify-end gap-x-6'>
                     <Link
                         to={HEADER_CTA_BUTTON.url}
-                        className='hidden lg:inline-flex rounded-md bg-copa-blue-700 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-copa-blue-800 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-copa-blue-800'
+                        className='hidden lg:inline-flex rounded-md bg-copa-red-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-copa-red-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-copa-red-700'
                     >
                         {HEADER_CTA_BUTTON.name}
                     </Link>
-                    <a className='hidden lg:flex hover:text-gray-900' href={`tel:${STORE_INFO.phone}`}>
+                    <a className='hidden lg:flex text-gray-100 hover:text-white' href={`tel:${STORE_INFO.phone}`}>
                         <div className='flex gap-x-2'>
                             <dt className='flex-none'>
                                 <span className='sr-only'>Telephone</span>
                                 <svg
-                                    className='h-7 w-6 text-black'
+                                    className='h-7 w-6 text-gray-100'
                                     fill='currentColor'
                                     viewBox='0 0 24 24'
                                     strokeWidth='1.5'
@@ -68,7 +68,7 @@ const HeaderNav = () => {
                     <button
                         type='button'
                         onClick={() => setMobileMenuOpen(true)}
-                        className='-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700'
+                        className='-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-100'
                     >
                         <span className='sr-only'>Open main menu</span>
                         <svg
