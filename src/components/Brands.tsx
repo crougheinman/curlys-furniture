@@ -6,7 +6,7 @@ const Brands = () => {
             <div className='mx-auto max-w-7xl px-6 lg:px-8'>
                 <div className='grid grid-cols-1 items-center gap-x-8 gap-y-16 lg:grid-cols-2'>
                     <div className='mx-auto w-full max-w-xl lg:mx-0'>
-                        <span className='text-base font-semibold leading-7 text-copa-gold-600'>Trusted partners</span>
+                        <span className='text-base font-semibold leading-7 text-copa-blue-500'>Trusted partners</span>
                         <h2 className='mt-2 text-3xl font-bold tracking-tight text-black'>
                             Brands We Carry
                         </h2>

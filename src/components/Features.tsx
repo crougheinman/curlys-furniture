@@ -7,7 +7,7 @@ const Features = () => {
         <div className='bg-white py-24 sm:py-32' id='features'>
             <div className='mx-auto max-w-7xl px-6 lg:px-8'>
                 <div className='mx-auto max-w-2xl lg:mx-0'>
-                    <span className='text-base font-semibold leading-7 text-copa-gold-600'>Why choose us</span>
+                    <span className='text-base font-semibold leading-7 text-copa-blue-500'>Why choose us</span>
                     <h2 className='mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl'>
                         Exceptional Quality. Unforgettable Comfort.
                     </h2>
@@ -20,7 +20,7 @@ const Features = () => {
                         {FEATURES.map((feature, index) => (
                             <div key={index} className='group relative rounded-2xl bg-gray-50 p-6 ring-1 ring-gray-200 transition-all duration-200 hover:bg-gray-100 hover:shadow-md'>
                                 <dt className='flex flex-col gap-6 text-base font-semibold leading-7 text-gray-900'>
-                                    <div className='flex h-10 w-10 items-center justify-center rounded-lg bg-copa-gold-500 transition-transform duration-200 group-hover:scale-110'>
+                                    <div className='flex h-10 w-10 items-center justify-center rounded-lg bg-copa-blue-900 transition-transform duration-200 group-hover:scale-110'>
                                         <Icon icon={feature.icon} className='h-6 w-6 text-white' />
                                     </div>
                                     {feature.name}
@@ -30,7 +30,7 @@ const Features = () => {
                                         {feature.url && (
                                             <Link
                                                 to={feature.url}
-                                                className='inline-flex items-center text-sm font-semibold leading-6 text-copa-gold-600 transition-colors duration-200 hover:text-copa-gold-700'
+                                                className='inline-flex items-center text-sm font-semibold leading-6 text-copa-blue-900 transition-colors duration-200 hover:text-copa-blue-700'
                                             >
                                                 {feature.linkText}
                                                 <span aria-hidden='true' className='ml-1 transition-transform duration-200 group-hover:translate-x-1'>→</span>
