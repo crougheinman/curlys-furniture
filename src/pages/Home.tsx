@@ -4,15 +4,16 @@ import Brands from '../components/Brands';
 import Layout from '../Layout';
 import About from '../components/About';
 import KidsSleep from '../components/KidsSleep';
+import Reveal from '../components/Reveal';
 
 const Home = () => {
     return (
         <Layout title="Home">
-            <Hero />
-            <Features />
-            <About />
-            <Brands />
-            <KidsSleep />
+            <Reveal><Hero /></Reveal>
+            <Reveal><Features /></Reveal>
+            <Reveal><About /></Reveal>
+            <Reveal><Brands /></Reveal>
+            <Reveal><KidsSleep /></Reveal>
         </Layout>
     );
 };
